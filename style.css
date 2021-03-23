@@ -37,3 +37,52 @@ color: #ffffff;
 .menu-bar .fa{
     margin-right: 8px;
 }
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: flex;
+    position: absolute;
+    background-color: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    border-bottom: 1px dotted #fff;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    display: flex;
+    position: absolute;
+    background-color: rgb(0,100,0);
+    margin-top: -40px;
+    margin-left: 140px;
+}
+.hover-me:hover .sub-menu-2 ul li{
+    width: 150px;
+    border-bottom: 1px dotted #fff;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
